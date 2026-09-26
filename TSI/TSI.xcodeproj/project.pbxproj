@@ -6,8 +6,15 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C662B21C3067AC5500B09978 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B21A3067AC5500B09978 /* MyApp.swift */; };
+		C662B21D3067AC5500B09978 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C662B21B3067AC5500B09978 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* TSI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C662B21A3067AC5500B09978 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		C662B21B3067AC5500B09978 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,6 +29,8 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
+				C662B21B3067AC5500B09978 /* ContentView.swift */,
+				C662B21A3067AC5500B09978 /* MyApp.swift */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +107,8 @@
 		000000000000000120000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				C662B21C3067AC5500B09978 /* MyApp.swift in Sources */,
+				C662B21D3067AC5500B09978 /* ContentView.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
